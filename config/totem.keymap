@@ -95,7 +95,7 @@ label= "NAVI"                              ;
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     1     ┃     2     ┃     3     ┃     4     ┃     5     ┃   ┃     6     ┃     7     ┃     8     ┃     9     ┃     0     ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃           ┃   UNDO    ┃   COPY    ┃   PASTE   ┃   LAST    ┃   ┃   NEXT    ┃   LEFT    ┃     UP    ┃   RIGHT   ┃     -     ┃
+//             ┃     =     ┃   UNDO    ┃   COPY    ┃   PASTE   ┃   LAST    ┃   ┃   NEXT    ┃   LEFT    ┃     UP    ┃   RIGHT   ┃     -     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃           ┃     [     ┃    CUT    ┃     {     ┃     (     ┃   ┃     )     ┃     }     ┃    DOWN   ┃     ]     ┃     +     ┃     *     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -105,7 +105,7 @@ label= "NAVI"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_N4   &kp KP_N5       &kp KP_N6   &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_N0
-                &trans      &kp LC(Z)   &kp LC(C)   &kp LC(V)   &kp C_PREV      &kp C_NEXT  &kp LEFT    &kp UP      &kp RIGHT   &kp KP_MINUS
+                &kp KP_EQUAL &kp LC(Z)   &kp LC(C)   &kp LC(V)   &kp C_PREV      &kp C_NEXT  &kp LEFT    &kp UP      &kp RIGHT   &kp KP_MINUS
     &trans      &trans      &kp LBKT    &kp LC(X)   &kp LBRC    &kp LPAR        &kp RPAR    &kp RBRC    &kp DOWN    &kp RBKT    &kp KP_PLUS &kp KP_MULTIPLY
                                         &trans      &trans      &trans          &trans      &trans      &trans
                         >;
@@ -120,9 +120,9 @@ label= "SYM"                               ;
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     ˆ     ┃     &     ┃     Ü     ┃     '     ┃     "     ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃     Ä     ┃           ┃     £     ┃           ┃           ┃   ┃   MUTE    ┃   YEN     ┃   EURO    ┃  POUND    ┃     ?     ┃
+//             ┃     Ä     ┃           ┃     £     ┃           ┃           ┃   ┃   MUTE    ┃   YEN     ┃   EURO    ┃  POUND    ┃     \     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃  EMAIL1   ┃  EMAIL2   ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   LAST    ┃   NEXT    ┃     \     ┃     |     ┃
+// ┃           ┃  EMAIL1   ┃  EMAIL2   ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   LAST    ┃   NEXT    ┃     ?     ┃     |     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃    GIF    ┃    ADJ    ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -130,8 +130,8 @@ label= "SYM"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp EXCL    &kp AT      &kp LA(HASH) &kp DLLR    &kp PRCNT      &kp CARET   &kp AMPS    &kp RA(U)   &kp SQT      &kp DQT
-                &kp RA(A)   &trans      &kp HASH    &kp LG(HASH) &kp LC(HASH)   &kp C_MUTE  &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4) &kp QMARK  &kp PIPE
-    &trans      &kp RA(F18) &kp RA(F19) &trans      &trans      &trans          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans         
+                &kp RA(A)   &trans      &kp HASH    &kp LG(HASH) &kp LC(HASH)   &kp C_MUTE  &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4) &kp BSLH
+    &trans      &kp RA(F18) &kp RA(F19) &trans      &trans      &trans          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp QMARK   &kp PIPE
                                         &trans      &gif        &mo ADJ         &trans      &kp C_PP    &trans      
                         >;
                 };
