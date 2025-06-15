@@ -91,7 +91,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &mt LCTRL A &mt LALT S  &mt LGUI D  &mt LSHFT F &kp G           &kp H       &mt RSHFT J &mt RGUI K  &mt RALT L  &mt RCTRL SEMICOLON
     &kp SQT     &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp DQT
-                                        &kp TAB     &lt IDE ESC  &lt NAV SPACE   &lt SYM RET &lt ADJ BSPC &kp  DEL
+                                        &kp TAB     &kp ESC     &lt NAV SPACE   &lt SYM RET &lt IDE BSPC &lt ADJ DEL
                         >;
                 };
 
@@ -127,7 +127,7 @@ label= "NAVI"                              ;
 label= "IDE"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃    BT1    ┃    BT2    ┃    BT3    ┃    BT4    ┃    BT5    ┃   ┃    BT6    ┃    BT7    ┃    BT8    ┃    BT9    ┃    BT0^&    ┃
+//             ┃    BT1    ┃    BT2    ┃    BT3    ┃    BT4    ┃    BT5    ┃   ┃    BT6    ┃    BT7    ┃    BT8    ┃    BT9    ┃    BT0    ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃     =     ┃   UNDO    ┃   COPY    ┃   PASTE   ┃   LAST    ┃   ┃   NEXT    ┃   LEFT    ┃     UP    ┃   RIGHT   ┃     -     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
