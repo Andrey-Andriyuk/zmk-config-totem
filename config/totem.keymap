@@ -241,7 +241,7 @@ label= "IDE"                               ;
 bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp LC(LS(N1))  &kp LC(LS(N2)) &kp LC(LS(N3)) &kp LC(LS(N4))    z&kp LC(LS(N5))  &kp LC(LS(N6))  &kp LC(LS(N7))   &kp LC(LS(N8))   &kp LC(LS(N9))   &kp LC(LS(N0))
+                &kp LC(LS(N1))  &kp LC(LS(N2)) &kp LC(LS(N3)) &kp LC(LS(N4))    &kp LC(LS(N5))  &kp LC(LS(N6))  &kp LC(LS(N7))   &kp LC(LS(N8))   &kp LC(LS(N9))   &kp LC(LS(N0))
                 &kp LC(N1)  &kp LC(N2)  &kp LC(N3)  &kp LC(N4)  &kp LC(N5)      &kp LC(N6)  &kp LC(N7)  &kp LC(N8)  &kp LC(N9)  &kp LC(N0)
     &trans      &kp UNDER   &kp LBKT    &kp LG(X)   &kp LBRC    &kp LPAR        &kp RPAR    &kp RBRC    &kp DOWN    &kp RBKT    &kp KP_PLUS &kp KP_MULTIPLY
                                         &trans      &trans      &trans          &trans      &trans      &trans
