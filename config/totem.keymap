@@ -113,7 +113,7 @@ label= "NAVI"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_N4   &kp KP_N5       &kp KP_N6   &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_N0
-                &kp KP_EQUAL &kp LG(Z)   &kp LG(C)  &kp LG(V)   &kp LG(LBKT)    &kp LG(RBKT)  &kp LEFT    &kp UP      &kp RIGHT   &kp KP_MINUS
+                &kp KP_EQUAL &kp LG(Z)   &kp LG(C)  &kp LG(LS(V))   &kp LG(LBKT)    &kp LG(RBKT)  &kp LEFT    &kp UP      &kp RIGHT   &kp KP_MINUS
     &trans      &kp UNDER   &kp LBKT    &kp LG(X)   &kp LBRC    &kp LPAR        &kp RPAR    &kp RBRC    &kp DOWN    &kp RBKT    &kp KP_PLUS &kp KP_MULTIPLY
                                         &trans      &trans      &trans          &trans      &trans      &trans
                         >;
@@ -230,9 +230,9 @@ label= "TVP 2"                             ;
 label= "IDE"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃    BT1    ┃    BT2    ┃    BT3    ┃    BT4    ┃    BT5    ┃   ┃    BT6    ┃    BT7    ┃    BT8    ┃    BT9    ┃    BT0    ┃
+//             ┃    BM1    ┃    BM2    ┃    BM3    ┃    BM4    ┃    BM5    ┃   ┃    BM6    ┃    BM7    ┃    BM8    ┃    BM9    ┃    BM0    ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃     =     ┃   UNDO    ┃   COPY    ┃   PASTE   ┃   LAST    ┃   ┃   NEXT    ┃   LEFT    ┃     UP    ┃   RIGHT   ┃     -     ┃
+//             ┃    BT1    ┃    BT2    ┃    BT3    ┃    BT4    ┃    BT5    ┃   ┃    BT6    ┃    BT7    ┃    BT8    ┃    BT9    ┃    BT0    ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃     _     ┃     [     ┃    CUT    ┃     {     ┃     (     ┃   ┃     )     ┃     }     ┃    DOWN   ┃     ]     ┃     +     ┃     *     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -240,9 +240,8 @@ label= "IDE"                               ;
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
-
-                &kp LC(LS(N1))  &kp LC(LS(N2)) &kp LC(LS(N3)) &kp LC(LS(N4))    &kp LC(LS(N5))  &kp LC(LS(N6))  &kp LC(LS(N7))   &kp LC(LS(N8))   &kp LC(LS(N9))   &kp LC(LS(N0))
                 &kp LC(N1)  &kp LC(N2)  &kp LC(N3)  &kp LC(N4)  &kp LC(N5)      &kp LC(N6)  &kp LC(N7)  &kp LC(N8)  &kp LC(N9)  &kp LC(N0)
+                &kp LC(LS(N1))  &kp LC(LS(N2)) &kp LC(LS(N3)) &kp LC(LS(N4))    &kp LC(LS(N5))  &kp LC(LS(N6))  &kp LC(LS(N7))   &kp LC(LS(N8))   &kp LC(LS(N9))   &kp LC(LS(N0))
     &trans      &kp UNDER   &kp LBKT    &kp LG(X)   &kp LBRC    &kp LPAR        &kp RPAR    &kp RBRC    &kp DOWN    &kp RBKT    &kp KP_PLUS &kp KP_MULTIPLY
                                         &trans      &trans      &trans          &trans      &trans      &trans
                       >;
