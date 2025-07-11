@@ -129,19 +129,19 @@ label= "SYM"                               ;
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     ˆ     ┃     &     ┃     Ü     ┃     '     ┃     "     ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃     Ä     ┃           ┃     £     ┃           ┃           ┃   ┃   MUTE    ┃   HOME    ┃   PG_UP   ┃    END    ┃     \     ┃
+//             ┃     Ä     ┃           ┃     £     ┃   MUTE    ┃   VOL-    ┃   ┃   VOL+    ┃   HOME    ┃   PG_UP   ┃    END    ┃     \     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃  EMAIL1   ┃  EMAIL2   ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   PG_DN   ┃   NEXT    ┃     ?     ┃     |     ┃
+// ┃           ┃  EMAIL1   ┃  EMAIL2   ┃           ┃           ┃    <      ┃   ┃     >     ┃           ┃   PG_DN   ┃   NEXT    ┃     ?     ┃     |     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃    GIF    ┃    ADJ    ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp EXCL    &kp AT      &kp LC(HASH) &kp DLLR    &kp PRCNT      &kp CARET   &kp AMPS    &kp RA(U)   &kp SQT     &kp DQT
-                &kp RA(A)   &trans      &kp HASH    &kp LG(HASH) &kp LC(HASH)   &kp C_MUTE  &kp HOME    &kp PG_UP   &kp END     &kp BSLH
-    &trans      &kp RA(F18) &kp RA(F19) &trans      &trans      &trans          &kp C_VOL_DN &kp C_VOL_UP &kp PG_DN &kp C_NEXT  &kp QMARK   &kp PIPE
-                                        &trans      &gif        &mo ADJ         &trans      &kp C_PP    &trans      
+                &kp EXCL    &kp AT      &kp LC(HASH) &kp DLLR   &kp PRCNT       &kp CARET   &kp AMPS    &kp RA(U)   &kp SQT     &kp DQT
+                &kp RA(A)   &trans      &kp HASH    &kp C_MUTE  &kp C_VOL_DN    &kp C_VOL_UP  &kp HOME  &kp PG_UP   &kp END     &kp BSLH
+    &trans      &kp RA(F18) &kp RA(F19) &trans      &trans      &kp LT          &kp GT      &trans      &kp PG_DN   &kp C_NEXT  &kp QMARK   &kp PIPE
+                                        &trans      &gif        &mo ADJ         &trans      &trans      &trans
                         >;
                 };
 
